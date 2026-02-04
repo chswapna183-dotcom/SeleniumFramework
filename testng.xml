@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumFramework Suite" verbose="1">
+    <test name="UI Tests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headless" value="false"/>
+        <classes>
+            <class name="com.swapnachada.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
